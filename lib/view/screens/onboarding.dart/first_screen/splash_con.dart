@@ -11,11 +11,11 @@ class SplashContect extends StatelessWidget {
       children: <Widget>[
         Spacer(),
         Padding(
-          padding:  EdgeInsets.symmetric(vertical: 15, horizontal:5 ),
+          padding:  const EdgeInsets.symmetric(vertical: 15, horizontal:15 ),
           child: Text(
             'Welcome',
             style: TextStyle(
-              fontSize: 24,
+              fontSize: 20,
               color: Colors.black,
               fontWeight: FontWeight.bold,
             ),
@@ -32,8 +32,9 @@ class SplashContect extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 30),
           child: Image.asset(
             image!,
-            height: 200,
-            width: 90,
+            height: 250,
+            width: 120,
+            fit: BoxFit.fill,
           ),
         ),
       ],

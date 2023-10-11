@@ -57,7 +57,10 @@ class _FirstWidState extends State<FirstWid> {
                     horizontal: getProportionateScreenWidth(20)),
                 child: Column(
                   children: <Widget>[
-                    Spacer(),
+                    Spacer(flex: 4,),
+                    SizedBox(
+                      height: 30,
+                    ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children:List.generate(
@@ -91,9 +94,12 @@ class _FirstWidState extends State<FirstWid> {
                         width: MediaQuery.sizeOf(context).width * 0.40,
                         height: MediaQuery.sizeOf(context).width *0.09,
                         child:  Center(
-                          child: Text(
-                            'Start',
-                            style: TextStyle(color: Colors.black),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Start',
+                              style: TextStyle(color: Colors.black),
+                            ),
                           ),
                         ),
                       ),

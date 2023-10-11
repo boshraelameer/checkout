@@ -37,7 +37,7 @@ class CartScreen extends StatelessWidget {
         ),
       ],
       centerTitle: true,
-      backgroundColor: Color.fromARGB(244, 102, 235, 201),
+      backgroundColor: Color.fromARGB(95, 73, 235, 201),
       elevation: 0.0,
     );
   }
