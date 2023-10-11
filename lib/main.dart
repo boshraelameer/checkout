@@ -1,4 +1,6 @@
 import 'package:app/view/screens/cartscreen/cartscreen.dart';
+import 'package:app/view/screens/onboarding.dart/first_screen/splashscreen.dart';
+import 'package:app/view/screens/onboarding.dart/first_screen/screen_wid.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CartScreen(),
+      home: FisrtBoarding(),
     );
   }
 }

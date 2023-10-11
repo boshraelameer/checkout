@@ -18,7 +18,7 @@ class CheckoutCard extends StatelessWidget {
       ),
       // height: 174,
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Color.fromARGB(108, 129, 216, 151),
         borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(30),
           topRight: Radius.circular(30),
@@ -64,7 +64,7 @@ class CheckoutCard extends StatelessWidget {
                     );
                   },
                   child: const Text('Checkout', style: TextStyle(color: Colors.black),),
-                  style: TextButton.styleFrom(),
+                  style:  TextButton.styleFrom(backgroundColor: Color.fromARGB(155, 51, 187, 153)),
                 ),
                 ]
               ),

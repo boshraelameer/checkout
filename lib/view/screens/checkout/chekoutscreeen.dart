@@ -16,6 +16,8 @@ class CkeckOutScreen extends StatelessWidget {
           ),
         ),
         centerTitle: true,
+        backgroundColor: Color.fromARGB(244, 102, 235, 201),
+        elevation: 0.0,
       ),
       body: const SingleChildScrollView(
         padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
